@@ -1,27 +1,59 @@
 * {
     box-sizing: border-box;
-    margin: 0;
+    
 }
 
 :root{
     font-size: 16px;
-    font-family: Roboto, sans-serif
+    font-family: Roboto, sans-serif;
+    --size-menu: 2rem
 }
 
+body{
+    padding-top: var(--size-menu);
+}
 .navigation{
+    min-height: var(--size-menu);
     display: flex;
+    align-items: center;
     background-color: black;
     color: white;
-    text-decoration: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .btn{
     display: inline-block;
     padding: 0.5em 1em;
-    text-decoration: none;
-    color: inherit;
     text-transform: uppercase;
 }
- .menu{
+
+.menu{
     display: flex;
- }
+    
+}
+
+.rio-caffe{
+    margin-right: auto;
+    padding: 0.5rem;
+}
+
+.contact{
+    margin-left: auto;
+    padding: 0.5rem;
+    display: none;
+}
+
+header{
+  
+}  
+
+.image{
+    width: 100%;
+}
+
+.info{
+   
+}
