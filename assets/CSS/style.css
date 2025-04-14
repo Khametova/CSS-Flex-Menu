@@ -11,22 +11,25 @@
 
 body{
     padding-top: var(--size-menu);
+    position: relative;
 }
 .navigation{
     min-height: var(--size-menu);
     display: flex;
+    flex-wrap: wrap;
+    
+    flex-basis: 300px;
+    min-width: 250px;
     align-items: center;
-    background-color: black;
+    background-color: #262626;
     color: white;
-   position: fixed;
+    position: fixed;
     top: 0;
-   left: 0;
-   right: 0;
-   flex-wrap: wrap;
-   flex-basis: 300px;
-   min-width: 250px;
-
+    left: 0;
+    right: 0;
+   
 }
+
 
 .btn{
     display: inline-block;
@@ -36,6 +39,7 @@ body{
 
 .menu{
     display: flex;
+
 }
 
 .rio-caffe{
@@ -53,18 +57,18 @@ body{
     width: 100%;
 }
 
-.about{
-    position: relative;
 
-}
 
 .info{
     position: absolute;
+    top: 80%;
     left: 70%;
-    transform: translateX(-100%);
-    transform: translateY(-200%);
-    bottom: 3rem;
-    text-align: center;
+    transform: translateY(-90%);
+    color: white;
+}
 
-   
+.box{
+    margin-top: 1em;
+    border: 0.1em solid inherit;
+    
 }
