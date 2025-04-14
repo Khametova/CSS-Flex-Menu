@@ -6,7 +6,7 @@
 :root{
     font-size: 16px;
     font-family: Roboto, sans-serif;
-    --size-menu: 2rem
+    --size-menu: 1.5rem
 }
 
 body{
@@ -18,10 +18,14 @@ body{
     align-items: center;
     background-color: black;
     color: white;
-    position: fixed;
+   position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
+   left: 0;
+   right: 0;
+   flex-wrap: wrap;
+   flex-basis: 300px;
+   min-width: 250px;
+
 }
 
 .btn{
@@ -32,7 +36,6 @@ body{
 
 .menu{
     display: flex;
-    
 }
 
 .rio-caffe{
@@ -43,17 +46,25 @@ body{
 .contact{
     margin-left: auto;
     padding: 0.5rem;
-    display: none;
 }
-
-header{
-  
-}  
+ 
 
 .image{
     width: 100%;
 }
 
+.about{
+    position: relative;
+
+}
+
 .info{
+    position: absolute;
+    left: 70%;
+    transform: translateX(-100%);
+    transform: translateY(-200%);
+    bottom: 3rem;
+    text-align: center;
+
    
 }
