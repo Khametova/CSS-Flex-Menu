@@ -64,6 +64,7 @@ body{
     text-transform: uppercase;
     color: rgb(18, 6, 6);
     padding: 0.5rem;
+
 }
 
 .conteiner1{
@@ -84,6 +85,7 @@ body{
     left: -10vh;
     transform: scale(1.7, 1);
     background-color: yellow;
+    box-shadow: 0px 2px 7px black
     
     
 }
@@ -93,4 +95,5 @@ body{
     height: 40px;
     transform: skew(20deg, 170deg)scale(1.8, 1);
     background-color: rgb(218, 71, 122);
+    box-shadow: 0px 2px 7px black
 }
